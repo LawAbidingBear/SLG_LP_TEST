@@ -1,0 +1,11 @@
+/*Creating additional rules, similar to pre-existing Bootstrap elements (as needed)*/
+.mw-80{
+  max-width: 80%;
+}
+
+.w-85{
+  width: 85%;
+}
+.img-med{
+  max-height: 200px;
+}

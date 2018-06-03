@@ -1,0 +1,59 @@
+/*Overwriting existing Bootstrap rules*/
+.text-block-img{
+  width: 100%;
+}
+
+.carousel-item{
+  height: 225px;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+  width:5% !important;
+  opacity: 1 !important;
+
+}
+
+p{
+  line-height: 2;
+}
+
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border-radius: 300px;
+  border: 0;
+  background: white;
+
+}
+
+ol.carousel-indicators li.active {
+  background: #62F09D;
+}
+
+
+
+@media (min-width: 768px) {
+  .carousel-item{
+    height:350px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .carousel-item{
+    height:500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-item{
+    height:600px;
+  }
+  .text-block-img{
+    width: 85% !important;
+  }
+}
