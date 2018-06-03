@@ -1,7 +1,7 @@
 This website can be found live at; joshuaollier.com.
 
 ##### Still to do #####
-Logo on Mail Submit Success page
+Logo on Mail Submit Success page,
 Style carousel controls
 
 ##### Notes #####
